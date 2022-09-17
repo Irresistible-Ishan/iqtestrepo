@@ -6,25 +6,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>HTML</title>
-  
-  <!-- HTML -->
-  
-
-  <!-- Custom Styles -->
   <link rel="stylesheet" href="style.css">
 </head>
+<style>
+           .btn-grad {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
+         .btn-grad {
+            margin: 1rem;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 1px 1px 30px black;
+            border-radius: 10px;
+            display: block;
+            cursor: pointer;
+            border: none;
+            padding-block:15pxx;
+          }
 
-<body>
-  <ul>
-<li><a href="#home">Home</a></li>
-<li><a href="#news">News</a></li>
-<li><a href="#contact">Contact</a></li>
-<li style="float:right"><a class="active" href="#about">About</a></li>
-</ul>
-  <div>
-    
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+</style>
+<body background="bg3.jpg" style="background-size:cover">
+ <center>
+  <div class="signform" align="center">
+<i><B>
+6F6F6F6F2069206920<br>6F69696F206F6F6F20<br>696969
+6F6F6F20696F<br>6F696F20696F6F696F<br>206F6F6
+F206F6F6F6F<br>206F696F206920696F<br>696F206969692
+06F69<br>6F696F6920696F6F20<br>6F20696F6F
+696F2069<br>6F696F2069696920696<br>F2069696F202F696F20<br>6F692069206F6F6F20<br>696F6969206969692<br>06F6F6920696F6F206F<br>6F20696F6F206F6F69</B></i>
+
+<center>
+<!-- The button used to copy the text -->
+<button onclick="myFunction()" class="btn-grad"><b>COPY!</b></button>
+<button onclick="hint()" class="btn-grad"><b>Hint?</b></button>
+</center>
   </div>
+  </center>
   <!-- Project -->
   <script src="main.js"></script>
 </body>
+
 </html>
