@@ -8,7 +8,7 @@ function myFunction() {
 
 // Alert the copied text
  alert("YOU REALLY THINK YOU CAN SOLVE IT HAHA ?");
- alert("and also... you lazy -_- copy it manually if on phone bruh")
+ alert("and also... you lazy -_- copy it manually...")
  alert("hey hey seems like u need a hint or maybe not.. ")
  
 }
